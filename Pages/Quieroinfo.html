@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../img/iconos/css/fontello.css">
+    <link rel="stylesheet" href="../ext/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/banner.css">
+    <link rel="stylesheet" href="../css/keyframes.css">
+    <link rel="stylesheet" href="../css/Pages.css">
+    
+</head>
+
+<body>
+    <header>
+        <div class="menu_principal">
+            <div >
+                 <div>
+                    <nav>
+                        <div> 
+                            <ul class="navbar">
+                                <div class="logo">
+                                <img src="../img/Logo Amorfar V2.png" alt="" width="75" height="75" >
+                                 </div>
+                                <li><b><a href="/index.html">Inicio</a></li></b>
+                                <li><b><a href="../Pages/Reseñas.html">Reseñas</a></li></b>
+                                <li><b><a href="../Pages/Acercade.html">Acerca de</a></li></b>
+                                <li><b><a href="#" target="_blanck">Quiero info!</a></li></b>
+                            </ul> 
+                        </div>
+                    </nav>   
+                </div>
+
+
+            </div>
+        </div>
+    </header>
+
+    <div class="contenido">
+
+        <div class="encabezado">
+            <div class="titulo">
+                <h1><b>Quiero recibir información</b></h1>
+            </div>
+        </div>
+
+        <div class="encabezado_info" >
+            <div class="titulo_info_1" >
+                <h2><b>Suscribite a Amorfar para recibir semanalmente las mejores reseñas.</b></h2>
+                <br>
+            </div>
+        </div>
+
+        <div class="encabezado_info" >
+            <div class="titulo_info_2">
+                <h3><i>Completá con tus datos</i></h3>
+                <br>
+            </div>
+        </div>
+
+        <div class="contenedor_form">
+            <div class="card_1">
+                <div class="formulario">
+                    <form action="Link" method="POST" target="_blank" name="form">
+                        <label for="nombre"><b>Nombre:</b> </label>
+                        <input type="text" id="nombre" name="nombre" id="nombre" required><br><br>
+                        
+                        <label for="apellido"><b>Apellido:</b></label>
+                        <input type="text" id="apellido" name="apellido" id="apellido" required><br><br>
+                        
+                        <p>
+                            <label for="mail">
+                                <span><b>Email:</b> </span>
+                                <input type="text" class="mail" id="mail" name="mail">
+                                <span class="error" aria-live="polite"></span>
+                            </label>
+                        </p>
+        
+                        <label for="celular"><b>Celular: 11 -</b> </label>
+                        <input type="tel" id="celular" name="celular" id="celular"><br><br>
+                        
+                        <label for="birthday"><b>Fecha de nacimiento:</b></label>
+                        <input type="date" id="nacimiento" name="nacimiento"><br><br>
+                        
+                        <label for="identifico"><b>Me identifico como:</b></label>
+                        <select name="Opciones" id="identifico">
+                            <option value="Mujer">Mujer</option>
+                            <option value="Hombre">Hombre</option>
+                            <option value="Otro">Otro</option>
+                        </select><br><br>
+                        
+                        <label for="interes"><b>Me interesa Amorfar porque:</b></label><br>
+                        <input type="radio" id="CABA" name="interesa" value="caba">
+                        <label for="CABA">Vivo en CABA</label><br>
+                        <input type="radio" id="Provincia" name="interesa" value="provincia">
+                        <label for="Provincia">Vivo en provincia de Buenos Aires</label><br>
+                        <input type="radio" id="Voy a ir" name="interesa" value="Voy a ir">
+                        <label for="Voy a ir">Voy a ir a Buenos Aires</label><br><br>
+                                            
+                   
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="card_2">
+                <img src="../img/foto 5.png" alt="" width="300" height="300">
+            </div>
+        </div>
+
+
+    <footer>
+        <div class="Pie_Pagina">
+            <div>
+                <h2>¡Gracias por visitarnos!</h2>
+                <p><i>Podes seguirnos en todas nuestras redes sociales</i>s sociales</p>
+            </div>
+            <div class="iconos">
+                <a href="#"><i class="icon-linkedin"></i> </a>
+                <a href="#"><i class="icon-twitter"></i></a>
+                <a href="#"><i class="icon-youtube-play"></i></a>
+                <a href="#"><i class="icon-facebook-squared"></i></a>
+            </div>
+        </div>
+    </footer>
+    
+        <!--Acá van los Scripts-->
+        <script src="../js/index.js"></script>
+        <script src="../ext/js/bootstrap.min.js"></script>
+        
+    </body>
+    </html>

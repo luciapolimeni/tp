@@ -1,0 +1,123 @@
+.sum_cont_banner{
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/Foto\ Obelisco.jpg");
+    background-color: white;
+}
+
+.sum_sombra{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    width: 80%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .6);
+    color: #fff;
+    margin: auto;
+}
+
+.sum_sombra hr {
+    border-top: 1px solid #fff;
+}
+
+.sum_sombra h1 {
+    font-size: 6vw;
+    margin-bottom: 10px;
+}
+.sum_sombra p {
+    font-size: 2vw;
+    margin-bottom: 10px;
+}
+
+.sum_cont_banner_link {
+    margin: 15px;
+    position: relative;
+}
+
+.sum_cont_banner_link a {
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 1px;
+    margin-bottom: 5px;
+    width: 150px;
+}
+.sum_cont_banner_link a:hover {
+    background-color: #fff;
+    color: #111;
+}
+
+/*
+.sum_banner_link {
+    opacity: 0;
+    animation: sum_keyframes_aparecerDesdeArriba 1s;
+    -webkit-animation: sum_keyframes_aparecerDesdeArriba 1s;
+    animation-fill-mode: forwards;
+}
+
+.sum_banner_link_1 {
+    opacity: 0;
+    animation: sum_keyframes_aparecerDesdeArriba 1s;
+    -webkit-animation: sum_keyframes_aparecerDesdeArriba 1s;
+    animation-fill-mode: forwards;
+    animation-delay: .5s;
+}
+
+.sum_banner_link_2 {
+    opacity: 0;
+    animation: sum_keyframes_aparecerDesdeArriba 1s;
+    -webkit-animation: sum_keyframes_aparecerDesdeArriba 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+
+*/
+
+.menu_principal{
+    border-bottom: 2px solid black;   
+}
+
+.navbar {
+    list-style-type: none;
+    padding-left:5%;
+    padding-right: 5%;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+    font-family:sans-serif;   
+}
+
+.navbar li a:hover {
+    color:rgb(250, 3, 250); 
+}
+
+.logo{
+    padding-right: 1%;
+}
+
+/* para que quede fijo el menu
+header{
+	position: fixed;
+	top:0;
+	width:100%;
+    min-height: 5vh;
+	z-index:9999;
+	background-color:white;
+	color:white;
+}
+*/

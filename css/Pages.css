@@ -1,0 +1,235 @@
+
+/* PAGINA RESEÑA */
+  /* 
+.cards{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+   /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-size: cover;
+    background-color:white;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 2fr 1fr 3fr;
+    grid-auto-rows: 3fr 3fr;
+    column-gap: 10px;
+    row-gap: 20px;
+    gap: 10px;
+}
+.tarjeta{
+    width: 20%;
+    border-radius: 20px;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+    overflow: hidden;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: white;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: black 5px solid;
+   
+}
+
+
+
+.cards{
+    background-color:white;
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+    grid-template-rows: repeat(2fr, 2fr);
+    column-gap: 10px;
+    row-gap: 10px;
+    gap: 10px;
+    padding-top:2%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.tarjeta{
+    border-radius: 5px;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+    text-align: center;
+    transition: all 0.5s;
+    background-color: white;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: black 3px solid;
+}
+
+*/
+
+.cards{
+    background-color:white;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top:2%;
+    padding-left: 7%;
+    padding-right: 3%;
+    margin: auto;
+}
+
+.tarjeta{
+    border-radius: 5px;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+    text-align: center;
+    width: 200px;
+    transition: all 0.5s;
+    background-color: white;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border: black 3px solid;
+}
+
+.tarjeta:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 16px 16px rgb(229, 199, 236);
+}
+.tarjeta img{
+    width: 100%;
+}
+.tarjeta h4{
+    font-size: 1em;
+}
+.tarjeta p{
+   font-size: 1em;  
+}
+
+.tarjeta a{
+    font-size: 2vh;
+    text-decoration: none;
+    color:black
+}
+
+.encabezado{
+    display: flex;
+    flex-wrap:nowrap;
+    position: center;
+    background-color:rgb(229, 199, 236);
+}
+
+.titulo{
+    padding-top: 2.5em;
+    padding-left: 8%;
+}
+
+.titulo_foto{
+    padding: 1em;
+}
+
+.contenido{
+    background-color: white;
+}
+
+
+/* PAGINA ACERCA DE */
+
+.titulo{
+    padding-bottom: 5%;
+}
+
+.Texto_cont{
+    padding: 5%;
+    background-color: white;
+    text-align: justify;
+}
+
+.Texto_cont_boton{
+    width: 200px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.Texto_cont_foto{
+    padding-bottom: 20%;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+}
+
+/*QUIERO INFO*/
+
+.encabezado_info{
+    display: flex;
+    flex-wrap:nowrap;
+    position: center;
+    background-color: white;
+}
+
+.titulo_info_1{
+    padding-top: 2.5em;
+    padding-left: 8%;
+    color: rgb(205, 80, 233);
+}
+
+.titulo_info_2{
+    padding-top: 2.5em;
+    padding-left: 8%;
+}
+
+.contenedor_form{
+    padding-left: 8%;
+    padding-bottom: 8%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px
+}
+
+.card_2{
+    position: center;
+    margin-right: 20px ;
+}
+
+input[type=email]{
+    -webkit-appearance: none;
+    appearance: none;
+  
+    width: 100%;
+    border: 1px solid #333;
+    margin: 0;
+  
+    font-family: inherit;
+    font-size: 90%;
+  
+    box-sizing: border-box;
+  }
+  
+  /* Este es nuestro diseño para los campos no válidos */
+  input:invalid{
+    border-color: #900;
+    background-color: #FDD;
+  }
+  
+  input:focus:invalid {
+    outline: none;
+  }
+  
+  /* Este es el diseño para nuestros mensajes de error 
+  .error {
+    width : 100%;
+    padding: 0;
+  
+    font-size: 80%;
+    color: white;
+    background-color: #900;
+    border-radius: 0 0 5px 5px;
+  
+    box-sizing: border-box;
+  }
+  
+  .error.active {
+    padding: 0.3em;
+  }
+*/
+
+.warnings{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: blueviolet;
+    padding-top: 20px;
+}

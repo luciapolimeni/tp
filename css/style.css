@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif
+}
+
+.sum_navbar{
+    background-color: rgba(255, 255, 255, .7) !important;
+}
+
+.sum_navbar div, .sum_navbar ul {
+    background-color: transparent !important;
+}
+
+
+.sum_cont_sect_1 {
+    padding: 5%;
+}
+
+.sum_cont_sect_2 {
+    padding: 5%;
+}
+
+.sum_cont_sect_1_link{
+    padding: 5%;
+}
+.sum_cont_sect_1_link a{
+    width: 200px;
+}
+
+.sum_cont_sect_1 hr {
+    border-top: 1px solid rgba(1, 1, 1, .3);
+}
+
+.Pie_Pagina{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5%;
+}
+
+section{
+    background-color:rgb(229, 199, 236);
+}
+/*
+rgb(229, 199, 236);
+*/
+
+.Section_2{
+    background-color: white;
+}
+
+.btn-secondary{
+    background-color: black;
+} 
+
+.icon-linkedin, .icon-twitter, .icon-youtube-play, .icon-facebook-squared{
+    color:white;
+}
